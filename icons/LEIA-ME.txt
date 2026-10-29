@@ -1,0 +1,23 @@
+ÍCONES DO SITE PÚBLICO — CASA ACOLHEDORA AAIOSES
+
+Coloque nesta pasta dois arquivos PNG quadrados:
+
+1. icon-192.png
+   - Formato: PNG
+   - Tamanho: 192 x 192 pixels
+   - Uso: ícone comum e favicon
+
+2. icon-512.png
+   - Formato: PNG
+   - Tamanho: 512 x 512 pixels
+   - Uso: ícone de instalação e tela inicial
+   - Como o manifest usa "any maskable", mantenha o símbolo principal
+     dentro da área central segura, com margem ao redor.
+
+Recomendações:
+- Use a mesma arte nos dois tamanhos.
+- Fundo bege claro (#F7F4EC), conforme a paleta da marca.
+- Evite textos pequenos, detalhes finos e informações sensíveis.
+- Os arquivos atuais usam a arte oficial "casa com raiz" da marca.
+- Ao trocar a arte, substitua os dois PNGs e incremente VERSAO_CACHE em sw.js
+  para atualizar o cache offline.
