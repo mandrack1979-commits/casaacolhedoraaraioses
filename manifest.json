@@ -1,47 +1,20 @@
 {
   "name": "Casa Acolhedora Aaioses",
-  "short_name": "Casa Aaioses",
-  "description": "Acolhimento, recomeço e esperança para pessoas em recuperação da dependência química.",
-  "lang": "pt-BR",
-  "dir": "ltr",
-  "start_url": "./index.html",
-  "scope": "./",
+  "short_name": "Aaioses",
+  "start_url": "/index.html",
   "display": "standalone",
-  "orientation": "portrait",
   "background_color": "#F7F4EC",
   "theme_color": "#2F6B4F",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Acolhimento",
-      "short_name": "Acolher",
-      "description": "Como pedir acolhimento e o que esperar.",
-      "url": "./acolhimento.html"
-    },
-    {
-      "name": "Doações",
-      "short_name": "Doar",
-      "description": "Itens e formas de apoiar a casa.",
-      "url": "./doacoes.html"
-    },
-    {
-      "name": "Necessidades",
-      "short_name": "Necessidades",
-      "description": "Lista demonstrativa de necessidades da casa.",
-      "url": "./necessidades.html"
+      "type": "image/png"
     }
   ]
 }
